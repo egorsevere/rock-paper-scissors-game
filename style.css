@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.containerForInfos {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 5px;
+}
+
+#infoUser {
+  order: 1;
+}
+
+#infoMessage {
+  order: 2;
+}
+
+#infoPc {
+  order: 3;
+}
+
+.containerForBtns {
+    background-color: black;
+}
+
+.score {
+    color: aliceblue;
+    border: 3px solid white;
+    width: fit-content;
+    padding: 9px;
+    
+}
+
+.customBtns {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+#rock {
+    background-color: blue;
+    color: aliceblue;
+}
+
